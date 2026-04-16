@@ -62,27 +62,27 @@ cd k8s-microservice
 ```
 minikube start
 ```
-###3️⃣ Build Docker Image
+### 3️⃣ Build Docker Image
 ```
 docker build -t k8s-microservice .
 ```
-###4️⃣ Deploy to Kubernetes
+### 4️⃣ Deploy to Kubernetes
 ```
 kubectl apply -f k8s/deployment.yaml
 kubectl apply -f k8s/service.yaml
 ```
-###5️⃣ Check Pods & Services
+### 5️⃣ Check Pods & Services
 ```
 kubectl get pods
 kubectl get services
 ```
-###6️⃣ Access Application
+### 6️⃣ Access Application
 ```
 minikube service k8s-service
 ```
 ---
 
-📊 Features
+## 📊 Features
 - Containerized microservice architecture
 - Kubernetes deployment & service management
 - Scalable and modular design
@@ -90,7 +90,7 @@ minikube service k8s-service
 
 ---
 
-🧠 Learning Outcomes
+## 🧠 Learning Outcomes
 - Understanding Docker containerization
 - Kubernetes architecture (Pods, Services, Deployments)
 - Real-world microservice deployment
@@ -98,7 +98,7 @@ minikube service k8s-service
 
 --- 
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Harshal Subhedar
 B.sc Cloud Computing
