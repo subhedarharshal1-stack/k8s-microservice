@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: k8s-microservice
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: k8s-microservice
+  template:
+    metadata:
+      labels:
+        app: k8s-microservice
+    spec:
+      containers:
+      - name: k8s-microservice
+        image: harshal1607/k8s-microservice:1.0
+        ports:
+        - containerPort: 8000
