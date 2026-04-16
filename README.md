@@ -100,5 +100,4 @@ minikube service k8s-service
 
 ## 👨‍💻 Author
 
-Harshal Subhedar
-B.sc Cloud Computing
+Harshal Subhedar 
